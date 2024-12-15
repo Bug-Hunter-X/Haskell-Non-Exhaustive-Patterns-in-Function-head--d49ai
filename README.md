@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Haskell: failing to account for all possible patterns in pattern matching. The `head'` function attempts to extract the head of a list without handling the case of an empty list, resulting in a runtime error. The solution shows how to correctly handle the empty list case using a more robust pattern match.
